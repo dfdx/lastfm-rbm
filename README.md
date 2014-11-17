@@ -39,7 +39,7 @@ How to repeat the experiment
 I'm not a freak like you, can I use other tools?
 ------------------------------------------------
 
-Julia is a wonderful programming language, but it's still on its way up. If you want to use something more stable and mature, Pandas and SciKit Learn (e.g. see [BrnoulliRBM](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/neural_network/rbm.py)) should work as well. Also see [Pylearn2](https://github.com/lisa-lab/pylearn2/) for more deep learning oriented library.
+Julia is a wonderful programming language, but it's still on its way up. If you want to use something more stable and mature, Pandas and SciKit Learn (e.g. see [BernoulliRBM](https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/neural_network/rbm.py)) should work as well. Also see [Pylearn2](https://github.com/lisa-lab/pylearn2/) for more deep learning oriented library.
 
 
-Found an error in this README? Report an issue!
+**Found an error in this README? Report an issue!**
