@@ -12,9 +12,9 @@ How to repeat the experiment
 
 2. Install libraries. In Julia prompt type:
 
-    Pkg.add("DataFrames")
-    Pkg.add("HDF5")
-    Pkg.clone("git@github.com:faithlessfriend/Boltzmann.jl.git")
+        Pkg.add("DataFrames")
+        Pkg.add("HDF5")
+        Pkg.clone("git@github.com:faithlessfriend/Boltzmann.jl.git")
 
 3. Download dataset from [here](http://mtg.upf.edu/node/1671).
 
@@ -22,17 +22,17 @@ How to repeat the experiment
 
 5. Prepare data. From Julia prompt, load `prepare.jl` and then call:
 
-    prepare()
+        prepare()
 
 6. Fit model. From Julia prompt, load `fit.jl` and call: 
 
-    fit_and_save()
+        fit_and_save()
 
 7. Load model and analyse. From Julia prompt, load `analysis.jl` and type:
 
-    model, artists = load_fitted()
-    W = components(model)
-    # do analysis
+        model, artists = load_fitted()
+        W = components(model)
+        # do analysis
     
     
 
